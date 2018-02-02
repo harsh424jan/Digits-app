@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.harshkumarbhartiya.a.Main2Activity"
+    android:background="@drawable/back"
+    >
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="175dp"
+            android:layout_height="300dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:editable="false"
+            android:fontFamily="casual"
+            android:onClick="onclick"
+            android:text="Play"
+            android:textColor="?android:attr/colorPressedHighlight"
+            android:textColorLink="?android:attr/colorPressedHighlight"
+            android:textSize="60dp" />
+
+        <RadioGroup
+            android:layout_width="175dp"
+            android:layout_height="100dp"
+            android:id="@+id/rg"
+            android:layout_marginTop="60dp"
+            android:defaultFocusHighlightEnabled="true"
+            android:layout_below="@+id/button1"
+            android:layout_alignParentEnd="true">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Fun"
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Learn" />
+        </RadioGroup>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

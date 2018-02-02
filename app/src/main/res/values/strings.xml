@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Digits</string>
+
+    <string name="title_activity_fullscreen">Fullscreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
